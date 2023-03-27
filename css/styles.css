@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Prompt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+h1,h2,h3,h4,h5,h6{
+font-family: 'Courgette', cursive; 
+}
+body{
+
+background-color: #0F1222;
+}
+p,li,a,label,input,textarea,select,table{
+    font-family: 'Prompt', sans-serif;
+}
+
+:root{
+--font-title: 'Prompt', sans-serif;
+--font-texts: 'Courgette', cursive;
+--size-title: 40px;
+--size-texts: 18px;
+--color-white: #ffffff;
+}
+
+.bg-portafolio{
+    background-color: #000000;
+    width: 100%;
+}
+/*?Botones nav */
+.navbar-toggler{
+color: #C69749;
+}
+
+nav ul li{
+    margin: 0 15px;
+}
+
+nav ul li a{
+    color: var(--color-white)!important;
+}
+
+/*? PRIMER BLOQUE (HEADER) FOTO+NOMBRE*/
+
+.hero-left img{
+    width: 100%;
+    padding-top: 20px;
+    
+}
+
+.hero-right{
+padding: 55px 85px;
+}
+
+.hero-right h2{
+    font-size: 60px;
+    color: #C69749;
+    text-align: left;
+}
+
+.hero-right p{
+    font-size: 30px;
+color: white; 
+    text-align: left;
+}
+
+.vector{
+margin: -10px;
+padding-left: -5px;
+}
+
+/*? SEGUNDO BLOQUE (HEADER) DATOS DE CONTACTO+ RESUMEN DE MI INFORMACIÓN  */
+.hero-left1{
+    display: flex;
+}
+
+.hero-left1 img{
+    height: 50px;
+    width: 60px;
+    padding-left: 20px;
+}
+.hero-left1 p{
+    padding-top: 20px;
+    color: white;
+    padding-left: 20px;
+}
+.hero-right1 p{
+    display: flex;
+    background-color: white;
+    padding: 10px;
+}
+
+/*? TERCER BLOQUE BOTONES INTERACTIVOS ESTUDIOS+ESTUDIOS COMPLEMENTARIOS */
+
+.hero-rigth2 img{
+    margin-left: 70px;
+    padding-bottom: 20px;
+}
+
+
+
+.hero-left2 .btn-boton{
+    height: 60px;
+    width: 170px;
+    padding: 12px 20px;
+    margin-left: 20px;
+    border-radius: 60px;
+    background-color: #2F303C;
+color: var(--color-white);
+font-family: Courgette;
+size-adjust: center;
+font-size: var(--size-texts);
+
+}
+.btn-boton:hover{
+color: #C69749;
+}
+
+.hero-left2 .mano1{
+    margin-left: -10px; 
+    margin-bottom: 50px;
+}
+.hero-rigth2 img{
+    margin-left: -20px;
+    padding-bottom: 20px;
+}
+
+.hero-rigth2 .btn-boton{
+    height: 60px;
+    width: 170px;
+    padding: 12px 20px;
+    margin-left: 5px;
+    border-radius: 60px;
+    background-color: #2F303C;
+color: var(--color-white);
+font-family: Courgette;
+size-adjust: center;
+font-size: var(--size-texts);
+}
+.btn-boton:hover{
+    color: #C69749;
+    }
+
+.division{
+    background-color: #000000;
+ width: 1000%;
+ height: 100px;
+} 
+/*? SECCIÓN MAIN  SKILLS*/
+
+.contenidos{
+    color: var(--color-white);
+    font-size: x-large;
+}
+
+.hero-left3 h1{
+color: var(--color-white);
+}
+
+.hero-left4 h1{
+    color: var(--color-white);
+}
+.ajuste-texto{
+    display: flex;
+    justify-content: space-between;
+    color: #C69749;
+    font-family: var(--font-texts);
+}
+
+.progress-bar{
+    background-color: #2F303C;
+}
+
+/*? SECCIÓN MAIN PROYECTOS */
+
+.proyect{
+    color: var(--color-white);
+    font-size: x-large;
+    display: inline-block;
+    padding-left: 20PX;
+}
+.bombilla{
+height: 80px;
+
+}
+
+
+
+.cajon{
+    margin-left: 50px;
+background-color: #0F1222;
+border-color: #ffffff;
+margin-bottom: 20px;
+padding: 20px;
+display: flex;
+gap: 20px;
+width: 100%;
+flex-direction: row;
+}
+/* gap:margen interna */
+
+.cajaTexto{
+    border: 2px solid var(--color-white);
+   
+
+}
+
+
+
+.card-text{
+    font-size: 15px;
+   height: 100%;
+   width: 100%;
+   color: var(--color-white);
+}
+
+.derecha{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+    place-items: center;
+}
+
+.derecha h3{
+    padding: 10px;
+    border: 2px solid var(--color-white);
+    width: 100%;
+    text-align: left;
+    color: #C69749;
+}
+
+.derecha h4{
+    padding: 10px;
+    border: 2px solid var(--color-white);
+    width: 100%;
+    text-align: left;
+    color: #ffffff;
+}
+
+/*? Carrusel */
+.carruselimg{
+    width: 120px;
+    border: 2px solid var(--color-white);
+    padding: 10px;
+    height:200px;
+}
+
+
+
+    .carruselimg .slick-arrow{
+        width: 0px;
+        height: 0px;
+        font-size: 0px;
+        color: transparent;
+        z-index: 0;
+        border: none;
+        opacity: 0;
+    }
+
+    .carruselimg .slick-dots{
+
+        z-index: 1;
+        border: none;
+        display: flex;
+        color: transparent;
+        gap: 10px;
+        margin: auto;
+        cursor: pointer;
+        background-color: #C69749;
+        justify-content: center;
+        place-content: center;
+        place-items: center;
+    }
+
+    .carruselimg .slick-dots li{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #2F303C;
+ 
+    }
+
+    .carruselimg .slick-dots li button{
+        border: none;
+        color: transparent;
+        background-color: transparent;
+    }
+
+/*? Img proyectos */
+
+.mis-proyectos{
+padding-left: 100px;
+color:#C69749 ;
+}
+
+.mis-proyectos button{
+    background-color: transparent;
+   
+}
+
+
+
+   
+
+
+
+
+
+
+
+/* Desktop Large */
+@media screen and (min-width: 1300px) and (max-width:1650px) {
+ 
+}
+
+/* Table */
+@media screen and (min-width: 660) and (max-width:990px) {
+   
+}
+
+/* Smarthphone */
+@media screen and (min-width: 421px) and (max-width:650px) {
+   
+}
+
+/* Smarthphone Mini */
+@media screen and (min-width: 320px) and (max-width:420px) {
+ 
+}
